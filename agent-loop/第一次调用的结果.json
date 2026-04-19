@@ -1,0 +1,40 @@
+{
+  "choices": [
+    {
+      "finish_reason": "tool_calls",
+      "index": 0,
+      "message": {
+        "content": "我来为您创建一个关于AI Agent的简要说明文档。",
+        "reasoning_content": "用户要求我写一个关于AI Agent的简要说明文档，字数在150个字符以内，并保存为 ai_agent_intro.txt 文件。\n\n我需要：\n1. 撰写一个关于AI Agent的简要说明（150字符以内）\n2. 使用writeFile工具保存为ai_agent_intro.txt文件\n\n让我先构思一下内容：\n- AI Agent是能够自主感知环境、理解指令并采取行动的智能系统\n- 它可以自主决策、执行任务并与环境交互\n- 常用于自动化、对话系统、任务执行等场景\n\n让我用简洁的语言写出来，控制在150字符以内：\n\n\"AI Agent是能够自主感知环境、理解指令并采取行动的智能系统，具备自主决策、执行任务和与环境交互的能力，广泛应用于自动化、对话系统等领域。\"\n\n这个大约80多个字符，符合要求。\n\n或者更简洁一点：\n\"AI Agent是能自主感知环境、理解指令并执行任务的智能系统，具备决策、交互和自我学习能力，广泛应用于自动化和智能服务场景。\"\n\n这个也符合要求。\n\n让我选择一个简洁明了的版本。",
+        "role": "assistant",
+        "tool_calls": [
+          {
+            "function": {
+              "arguments": "{\"filename\":\"ai_agent_intro.txt\",\"content\":\"AI Agent是能够自主感知环境、理解指令并采取行动的智能系统，具备自主决策、执行任务和与环境交互的能力，广泛应用于自动化、对话系统等领域。\"}",
+              "name": "writeFile"
+            },
+            "id": "call_-7696241954576659519",
+            "index": 0,
+            "type": "function"
+          }
+        ]
+      }
+    }
+  ],
+  "created": 1776615264,
+  "id": "20260420001336d3ee35f1a48e4075",
+  "model": "glm-4.7-flash",
+  "object": "chat.completion",
+  "request_id": "20260420001336d3ee35f1a48e4075",
+  "usage": {
+    "completion_tokens": 294,
+    "completion_tokens_details": {
+      "reasoning_tokens": 225
+    },
+    "prompt_tokens": 265,
+    "prompt_tokens_details": {
+      "cached_tokens": 42
+    },
+    "total_tokens": 559
+  }
+}

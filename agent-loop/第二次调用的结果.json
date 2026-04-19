@@ -1,0 +1,29 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "message": {
+        "content": "已成功创建文件 `ai_agent_intro.txt`，内容如下：\n\n```\nAI Agent是能够自主感知环境、理解指令并采取行动的智能系统，具备自主决策、执行任务和与环境交互的能力，广泛应用于自动化、对话系统等领域。\n```\n\n该文档包含71个字符，简要说明了AI Agent的定义、核心能力和应用场景。",
+        "reasoning_content": "文件已经成功创建并保存为 ai_agent_intro.txt。内容长度是71个字符，远少于150字符的限制。这个文档简要介绍了AI Agent的概念、能力和应用场景。",
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1776615521,
+  "id": "202604200018259edb904470c84fbb",
+  "model": "glm-4.7-flash",
+  "object": "chat.completion",
+  "request_id": "202604200018259edb904470c84fbb",
+  "usage": {
+    "completion_tokens": 110,
+    "completion_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "prompt_tokens": 576,
+    "prompt_tokens_details": {
+      "cached_tokens": 42
+    },
+    "total_tokens": 686
+  }
+}
