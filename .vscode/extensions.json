@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "lokalise.i18n-ally",
+    "eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "anthropic.claude-code"
+  ]
+}
